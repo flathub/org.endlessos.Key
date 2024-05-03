@@ -8,17 +8,17 @@
     "sources": [
         {
             "type": "file",
-            "url": "https://github.com/learningequality/kolibri/releases/download/v0.16.0-beta13/kolibri-0.16.0b13-py2.py3-none-any.whl",
-            "sha256": "e462c95018be4b92012a0fbeff190556be7134e7dffc5b3d4db4d53a35a9fc0d",
+            "url": "https://files.pythonhosted.org/packages/49/c6/1ddd5696f192b273b6d4d959c18a6ed02fac543abefad6b893868091f980/kolibri-0.16.1-py2.py3-none-any.whl",
+            "sha256": "d5c7fdd3af22ab00e9eb52b895b4ee5c3aa91ccf540a9738adc65ef94202524e",
             "x-checker-data": {
-                "type": "json",
-                "url": "https://api.github.com/repos/learningequality/kolibri/releases",
-                "version-query": "first | .tag_name | sub(\"^[vV]\"; \"\") | sub(\"-beta\"; \"b\")",
-                "url-query": "first | .assets[] | select(.name==\"kolibri-\" + $version + \"-py2.py3-none-any.whl\") | .browser_download_url",
+                "type": "pypi",
+                "name": "kolibri",
+                "packagetype": "bdist_wheel",
                 "versions": {
                     ">=": "0.16.0",
                     "<": "0.17.0"
-                }
+                },
+                "stable-only": true
             }
         },
         {
