@@ -10,12 +10,12 @@
         {
             "type": "git",
             "url": "https://git.kernel.org/pub/scm/network/iproute2/iproute2.git",
-            "tag": "v6.7.0",
+            "tag": "v6.10.0",
             "x-checker-data": {
                 "type": "git",
                 "tag-pattern": "^v([\\d.]+)$"
             },
-            "commit": "3dc3445bbfa9b84d4166e5837f8d5a4994faf2e7"
+            "commit": "db0edb90d23e99bd5400ad7717f0bf6326430817"
         }
     ]
 }
